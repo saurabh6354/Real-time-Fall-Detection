@@ -1,0 +1,39 @@
+# Documentation (private)
+DEFENSE.md
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files (large datasets)
+data/adls/
+data/falls/
+data/processed/
+
+# Model files (large binary files)
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
