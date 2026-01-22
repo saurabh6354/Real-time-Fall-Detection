@@ -28,7 +28,6 @@ Video Input → MediaPipe Pose → Normalized Landmarks → LSTM Classifier → 
 ├── utils.py            # Helper functions
 ├── requirements.txt    # Dependencies
 ├── REPORT.md           # Detailed design report
-├── DEFENSE.md          # Technical defense document
 ├── data/               # Dataset directory
 │   ├── adls/           # Activities of daily living
 │   ├── falls/          # Fall event data
@@ -83,7 +82,6 @@ python inference.py
 ## 📄 Documentation
 
 - [Design Report](REPORT.md) - Detailed architectural decisions
-- [Technical Defense](DEFENSE.md) - Technical justifications
 
 ## 📝 License
 
